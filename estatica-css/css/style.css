@@ -1,0 +1,56 @@
+/* Folha de estilos para o LAB 1 da disciplina SI 1 */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #c3b6dd url("../images/body-bg.png");
+}
+a {
+    color: #00688B;
+    text-decoration: none;
+}
+.align-center {
+    text-align: center;
+}
+.container {
+    align: center;
+}
+.content {
+    -webkit-box-shadow: 0px 10px 10px 0px #333333;
+    -moz-box-shadow:    0px 10px 10px 0px #333333;
+    box-shadow:         0px 10px 10px 0px #333333;
+    margin: 0 auto 20px auto;
+    width: 900px;
+    background: #FFFFFF;
+    color: #222222;
+}
+.content-part {
+    padding: 20px;
+    min-height: 400px;
+}
+.header {
+    height: 120px;
+    background: #2e1169 url("../images/ufcg-bg.png") no-repeat 10px 10px;
+    padding: 20px;
+}
+.header h1 {
+    color: #FFFFFF;
+    margin: 40px 0 0 200px;
+}
+.botao {
+    padding: 7px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #0068B4;
+    box-shadow: 1px 1px 1px #999;
+    border-radius: 4px;
+}
+.form {
+    margin: 50px 0 0 200px;
+}
+.input-form {
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+    margin-top: 5px;
+}

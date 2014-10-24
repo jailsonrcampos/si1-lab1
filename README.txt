@@ -6,4 +6,6 @@ Aluno: Jailson Ramos Campos
 Matrícula: 112210653
 
 ================================================================================================
-clone 1 e 2
+. Pagina estática simples pronta
+
+. Pagina estática css pronta
