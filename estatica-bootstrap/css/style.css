@@ -1,0 +1,11 @@
+/* Folha de estilos complementar */
+
+.header {
+    margin: 10px 0 10px 0;
+}
+.align-center {
+    text-align: center;
+}
+.footer {
+    margin-bottom: 30px;
+}
