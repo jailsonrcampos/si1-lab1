@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Formulário de Matrícula - Sistemas de Informação 1</title>
+    <meta name="description" content="Formulário de Matrícula na Disciplina Sistemas de Informação 1 - SI 1 - UFCG">
+    <meta name="author" content="Jailson Ramos Campos">
+    <meta name="keywords" content="ufcg, disciplina, Sistemas de Informação, SI1, lab1, html">
+
+    <!-- Folhas de estilos -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<!-- Início do Container  -->
+<div class="container">
+
+    <!-- Início Cabeçalho-->
+    <div class="header" id="banner">
+        <div class="row">
+            <div class="col-lg-8 col-md-7 col-sm-6">
+                <h1>Sistemas de Informação 1 - SI 1</h1>
+                <p>Universidade Federal de Campina Grande - UFCG</p>
+                <p>Período 2014.2</p>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-6">
+                <img src="images/sistemas-informacao.jpg" width="200">
+            </div>
+        </div>
+    </div>
+    <!-- Fim Cabeçalho-->
+
+    <!-- Menu de Navegação  -->
+    <div class="bs-docs-section clearfix">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Home</a>
+                    </div>
+                    <div class="navbar-collapse collapse navbar-responsive-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html#sobre">Sobre o Curso</a></li>
+                            <li><a href="index.html#objetivos">Objetivos</a></li>
+                            <li><a href="index.html#conteudo">Conteúdo</a></li>
+                            <li><a href="index.html#avaliacao">Avaliação</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Menu de Navegação  -->
+
+    <!-- Conteúdo  -->
+    <div class="bs-docs-section clearfix">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h2>Formulário de Matrícula na Disciplina Sistemas de Informação 1</h2>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+            </div>
+
+            <div class="col-lg-6">
+                <br />
+                <form class="form-horizontal" action="obrigado.html" method="post">
+
+                    <div class="form-group">
+                        <label for="inputName" class="col-lg-2 control-label">Nome</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputName" placeholder="Nome" required="required">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMat" class="col-lg-2 control-label">Matrícula</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputMat" placeholder="Matrícula" required="required">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email" required="required">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="textArea" class="col-lg-2 control-label">Mensagem para o Professor</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="3" id="textArea"></textarea>
+                            <span class="help-block">Digite uma mensagem ou comentário para o professor</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-10 col-lg-offset-2">
+                            <button type="reset" class="btn btn-default">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Cadastrar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-3">
+            </div>
+        </div>
+
+        <!-- Rodapé  -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                </div>
+                <div class="align-center footer">
+                    © 2014 UFCG.
+                </div>
+            </div>
+        </div>
+        <!-- Fim do Rodapé  -->
+
+    </div>
+    <!-- Fim do Conteúdo  -->
+
+</div>
+<!-- Fim do Container  -->
+
+<!-- Javascript  -->
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+
+</body>
+</html>
