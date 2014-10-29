@@ -11,4 +11,20 @@
 }
 .item-assunto {
     margin-bottom: 5px;
+    font-size: 18px;
+}
+.botao-ok, .botao-remover {
+    font-size: 20px;
+}
+a.botao-ok {
+    color: #1fee34;
+}
+a:hover.botao-ok {
+    color: darkgreen;
+}
+a.botao-remover {
+    color: red;
+}
+a:hover.botao-remover {
+    color: darkred;
 }

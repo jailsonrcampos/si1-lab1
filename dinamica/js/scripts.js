@@ -7,8 +7,8 @@ $(document).ready(function(){
 
         $('#assuntoAprender').append('' +
         '<div class="item-assunto">' +
-        '<a href="#" class="btn btn-success btn-xs"><span class="glyphicon glyphicon-ok promover remover" title="Mover para a lista de assuntos aprendidos"></span></a> ' +
-        '<a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove remover" title="Remover assunto"></span></a> ' +
+        '<a href="#" class="botao-ok"><span class="glyphicon glyphicon-ok promover remover" title="Mover para a lista de assuntos aprendidos"></span></a> ' +
+        '<a href="#" class="botao-remover"><span class="glyphicon glyphicon-remove remover" title="Remover assunto"> </span></a> ' +
         assunto.val() +
         '</div>');
         assunto.val('');
@@ -24,7 +24,7 @@ $(document).ready(function(){
             var assunto = $(this).parent().text();
             $('#assuntoAprendido').append('' +
             '<div class="item-assunto">' +
-            '<a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove remover" title="Remover assunto"></span></a> ' +
+            '<a href="#" class="botao-remover"><span class="glyphicon glyphicon-remove remover" title="Remover assunto"> </span></a> ' +
             assunto +
             '</div>');
         })
